@@ -42,6 +42,7 @@ img {
   color: ivory;
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgb(9, 1, 122);
+  animation: animator2 10s infinite;
 }
 .titles {
   text-align: center;
@@ -55,6 +56,26 @@ img {
   background-color: red;
   border-radius: 15px;
   box-shadow: 10px 10px 10px rgb(15, 122, 15);
+  animation: animator 10s infinite;
+}
+@keyframes animator {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: #7700ff;
+  }
+  to {
+    background-color: green;
+  }
+}
+@keyframes animator2 {
+  from {
+    background-color: hotpink;
+  }
+  to {
+    background-color: black;
+  }
 }
 .akumabutton {
   background-color: #00ffbf;
