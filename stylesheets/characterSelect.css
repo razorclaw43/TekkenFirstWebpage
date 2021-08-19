@@ -5,6 +5,7 @@ h1 {
   color: #f0ffff;
   font-family: arial;
   text-align: center;
+  margin-left: 0pc;
 }
 p {
   color: #e0ffff;
@@ -38,7 +39,6 @@ img {
 }
 
 .tekkenwikibutton {
-  background-color: hotpink;
   color: ivory;
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgb(9, 1, 122);
@@ -51,6 +51,7 @@ img {
   font-style: italic;
 }
 .alignment {
+  /*this is for all the bordered card with this character names */
   float: left;
   border: #7700ff solid 5px;
   background-color: red;
@@ -69,14 +70,7 @@ img {
     background-color: green;
   }
 }
-@keyframes animator2 {
-  from {
-    background-color: hotpink;
-  }
-  to {
-    background-color: black;
-  }
-}
+
 .akumabutton {
   background-color: #00ffbf;
 }
@@ -114,4 +108,14 @@ img {
 }
 a {
   text-decoration: none;
+}
+img:hover {
+  background-color: gold;
+}
+.alignment img:hover {
+  border-radius: 500px;
+  opacity: 0.9;
+}
+.titles a:hover {
+  background-color: steelblue;
 }
