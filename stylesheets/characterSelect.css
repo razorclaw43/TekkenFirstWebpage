@@ -58,6 +58,7 @@ img {
   border-radius: 15px;
   box-shadow: 10px 10px 10px rgb(15, 122, 15);
   animation: animator 10s infinite;
+  text-align: center;
 }
 @keyframes animator {
   from {
