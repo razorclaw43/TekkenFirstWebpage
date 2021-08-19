@@ -119,4 +119,8 @@ img:hover {
 }
 .titles a:hover {
   background-color: steelblue;
+  color: white;
+}
+p:hover {
+  color: black;
 }
