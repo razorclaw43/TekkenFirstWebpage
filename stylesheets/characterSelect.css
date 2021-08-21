@@ -24,11 +24,18 @@ nav {
 img {
   border-radius: 7px;
 }
-.bottomless {
+#bottomless {
   bottom: 0;
   right: 0;
   position: fixed;
   color: whitesmoke;
+}
+
+#topofpage {
+  bottom: 0;
+  left: 80px;
+  position: fixed;
+  color: yellow;
 }
 #container {
   width: 80%;
@@ -84,8 +91,7 @@ img {
   border-color: #ffffff;
 }
 .kingbutton {
-  background-color: black;
-  color: white;
+  background-color: #00ffbf;
 }
 .fengbutton {
   background-color: chocolate;
