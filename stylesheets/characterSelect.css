@@ -130,8 +130,36 @@ img:hover {
 p:hover {
   color: black;
 }
-@media only screen and (max-width: 1080px) {
-  body {
-    min-width: auto;
+.alignmentak {
+  float: left;
+  border: #7700ff solid 5px;
+  background-color: red;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px rgb(15, 122, 15);
+  animation: animator 10s infinite;
+  text-align: center;
+}
+@media only screen and (max-width: 720px) {
+  .alignment {
+    float: none;
+    width: 70%;
+    height: 70%;
+  }
+  h1 img {
+    margin-right: 180px;
+  }
+  .tekkenwikibutton {
+    margin-left: -230px;
+    display: list-item; /*turns things into list, opposite of inline block display*/
+  }
+  #header2 {
+    margin-right: 180px;
+  }
+  .alignmentak {
+    min-width: 560px;
+  }
+  .alignmentak img {
+    width: 340px;
+    height: 150px;
   }
 }
