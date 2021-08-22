@@ -1,21 +1,20 @@
 body {
-  background-image: linear-gradient(black, white);
+  background-color: white;
+  color: black;
 }
 h1 {
-  color: #f0ffff;
   font-family: arial;
   text-align: center;
   margin-left: 0pc;
 }
 p {
-  color: #e0ffff;
   font-family: Arial, Helvetica, sans-serif;
 }
 footer {
   font-size: large;
 }
 h2 {
-  background-color: indigo;
+  background-color: white;
   padding: 20px;
 }
 nav {
@@ -28,14 +27,13 @@ img {
   bottom: 0;
   right: 0;
   position: fixed;
-  color: whitesmoke;
 }
 
 #topofpage {
   bottom: 0;
   left: 80px;
   position: fixed;
-  color: yellow;
+  display: none;
 }
 #container {
   width: 80%;
@@ -46,28 +44,28 @@ img {
 }
 
 .tekkenwikibutton {
-  color: ivory;
+  border: solid 1px black;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px rgb(9, 1, 122);
-  animation: animator2 10s infinite;
+  /*box-shadow: 5px 5px 5px rgb(9, 1, 122);
+  animation: animator2 10s infinite;*/
+  display: none;
 }
 .titles {
   text-align: center;
   font-size: 2em;
-  color: whitesmoke;
   font-style: italic;
 }
 .alignment {
   /*this is for all the bordered card with this character names */
   float: left;
   border: #7700ff solid 5px;
-  background-color: red;
+  background-color: white;
   border-radius: 15px;
   box-shadow: 10px 10px 10px rgb(15, 122, 15);
   animation: animator 10s infinite;
   text-align: center;
 }
-@keyframes animator {
+/*@keyframes animator {
   from {
     background-color: red;
   }
@@ -78,45 +76,40 @@ img {
     background-color: green;
   }
 }
-
+*/
 .akumabutton {
-  background-color: #00ffbf;
+  background-color: white;
 }
 .lawbutton {
-  background-color: #00ffff;
+  background-color: white;
   border-color: #ffffff;
 }
 .armorkingbutton {
-  background-color: #00ffbf;
+  background-color: white;
   border-color: #ffffff;
 }
 .kingbutton {
-  background-color: #00ffbf;
+  background-color: white;
 }
 .fengbutton {
-  background-color: chocolate;
-  color: cornsilk;
+  background-color: white;
 }
 .giggasbutton {
-  background-color: gainsboro;
-  color: dimgray;
+  background-color: white;
 }
 .bryanbutton {
-  background-color: firebrick;
-  color: greenyellow;
+  background-color: white;
 }
 .hwoarangbutton {
-  background-color: lightskyblue;
-  color: midnightblue;
+  background-color: white;
 }
 .pandabutton {
-  background-color: ivory;
-  color: orange;
+  background-color: white;
 }
 a {
   text-decoration: none;
 }
-img:hover {
+/*img:hover {
   background-color: gold;
 }
 .alignment img:hover {
@@ -130,8 +123,4 @@ img:hover {
 p:hover {
   color: black;
 }
-@media only screen and (max-width: 1080px) {
-  body {
-    min-width: auto;
-  }
-}
+*/
