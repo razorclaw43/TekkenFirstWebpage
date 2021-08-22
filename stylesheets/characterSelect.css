@@ -142,8 +142,8 @@ p:hover {
 @media only screen and (max-width: 720px) {
   .alignment {
     float: none;
-    width: 70%;
-    height: 70%;
+    width: 30%;
+    height: 30%;
   }
   h1 img {
     margin-right: 180px;
