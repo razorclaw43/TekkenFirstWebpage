@@ -142,48 +142,26 @@ p:hover {
 }
 @media only screen and (max-width: 720px) {
   /*used to account for smaller screens, readjust browser size to see effect*/
-  .alignment {
-    float: none;
-    width: 220px;
-    height: 240px;
-  }
 
-  .tekkenwikibutton {
-    margin-left: 0;
-    display: list-item;
-    width: 300px; /*turns things into list, opposite of inline block display*/
-  }
-  #header2 {
-    display: block;
-    max-width: 250px;
-    margin-left: 0;
-  }
-  .alignmentak {
-    min-width: 400px;
-    margin-left: 0;
-  }
-  .alignmentak img {
-    width: 340px;
-    height: 150px;
-  }
-  body {
-    margin: 0;
+  #container {
     width: auto;
-    margin-left: 0;
-  }
-  .alignment {
-    padding-bottom: 60px;
     margin: 0;
-  }
-  main {
-    margin-left: 0;
   }
   .titles {
-    margin-left: 0;
+    max-width: 500px;
+    display: list-item;
+    width: auto;
+  }
+
+  .charactertiles {
+    max-width: 500px;
+    width: auto;
+    float: left;
+    margin: 0;
   }
   h1 {
-    display: block;
-    max-width: 40px;
-    margin-left: 0;
+    max-width: 500px;
+    margin: 0;
+    width: auto;
   }
 }
