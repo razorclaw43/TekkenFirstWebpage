@@ -1,5 +1,6 @@
 body {
   background-image: linear-gradient(black, white);
+  display: block;
 }
 h1 {
   color: #f0ffff;
@@ -146,20 +147,20 @@ p:hover {
     width: 220px;
     height: 240px;
   }
-  h1 img {
-    margin-left: -100px;
-    text-align: none;
-  }
+
   .tekkenwikibutton {
-    margin-left: -230px;
-    display: list-item; /*turns things into list, opposite of inline block display*/
+    margin-left: 0;
+    display: list-item;
+    width: 300px; /*turns things into list, opposite of inline block display*/
   }
   #header2 {
-    margin-right: 180px;
+    display: block;
+    max-width: 250px;
+    margin-left: 0;
   }
   .alignmentak {
     min-width: 400px;
-    margin-left: 105px;
+    margin-left: 0;
   }
   .alignmentak img {
     width: 340px;
@@ -167,9 +168,22 @@ p:hover {
   }
   body {
     margin: 0;
+    width: auto;
+    margin-left: 0;
   }
   .alignment {
     padding-bottom: 60px;
-    margin-left: 180px;
+    margin: 0;
+  }
+  main {
+    margin-left: 0;
+  }
+  .titles {
+    margin-left: 0;
+  }
+  h1 {
+    display: block;
+    max-width: 40px;
+    margin-left: 0;
   }
 }
