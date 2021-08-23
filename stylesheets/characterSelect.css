@@ -140,13 +140,15 @@ p:hover {
   text-align: center;
 }
 @media only screen and (max-width: 720px) {
+  /*used to account for smaller screens, readjust browser size to see effect*/
   .alignment {
     float: none;
-    width: 30%;
-    height: 30%;
+    width: 220px;
+    height: 240px;
   }
   h1 img {
-    margin-right: 180px;
+    margin-left: -100px;
+    text-align: none;
   }
   .tekkenwikibutton {
     margin-left: -230px;
@@ -156,10 +158,18 @@ p:hover {
     margin-right: 180px;
   }
   .alignmentak {
-    min-width: 560px;
+    min-width: 400px;
+    margin-left: 105px;
   }
   .alignmentak img {
     width: 340px;
     height: 150px;
+  }
+  body {
+    margin: 0;
+  }
+  .alignment {
+    padding-bottom: 60px;
+    margin-left: 180px;
   }
 }
